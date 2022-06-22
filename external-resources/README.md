@@ -11,3 +11,4 @@
 - [All meta tags gist](https://gist.github.com/lancejpollard/1978404)
 - [Emmet html formatting](https://docs.emmet.io/cheat-sheet/)
 - [mailchimp email templates](https://github.com/mailchimp/email-blueprints)
+- [Everything You Need to Know About rel=”noopener noreferrer” Tags: Purpose, Benefits and SEO Impact](https://clever-solution.com/everything-you-need-to-know-about-rel-noopener-noreferrer-tags-purpose-benefits-and-seo-impact/)
