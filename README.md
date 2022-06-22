@@ -26,6 +26,6 @@ Documentos como los atajos de teclado o links a otra información
 
 Enunciado de la práctica y los posibles wireframes del diseño.
 
-## 4 slides
+## slides
 
 Las slides del módulo
