@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <!-- form attributes -->
+  <form id="form" action="/register" method="post">
+    <div>
+      <label for="nombre">Nombre</label>
+      <input required type="text" id="nombre" name="nombre" placeholder="Pon tu nombre">
+    </div>
+
+    <div>
+      <label for="random">Email</label>
+      <input required type="email" name="email" id="random">
+    </div>
+
+    <div>
+      <label for="age">Edad</label>
+      <input required type="number" id="age" step="5" name="age">
+    </div>
+
+    <div>
+      <label for="password">password</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <button type="button">more info +</button>
+    <div role="button" tabindex="0">more info +</div>
+
+    <hr>
+
+    <fieldset>
+      <legend>Fav programming lang</legend>
+      <label for="js">javascript</label>
+      <input type="radio" name="fav" id="js" value="js" checked>
+      <label for="python">python 🐍</label>
+      <input type="radio" name="fav" id="python" value="python">
+      <label for="net">.NET</label>
+      <input type="radio" name="fav" id="net" value="net">
+    </fieldset>
+
+    <!--
+    <fieldset>
+      <legend>Skill</legend>
+      <label for="skilljs">javascript</label>
+      <input type="radio" name="skill" id="skilljs" checked>
+      <label for="skillpython">python 🐍</label>
+      <input type="radio" name="skill" id="skillpython">
+      <label for="skillnet">.NET</label>
+      <input type="radio" name="skill" id="skillnet">
+    </fieldset>
+    -->
+    <fieldset>
+      <legend>Skills</legend>
+      <label for="skillsJs">javascript</label>
+      <input type="checkbox" name="js" id="skillsJs">
+      <label for="skillspython">python 🐍</label>
+      <input type="checkbox" name="python" id="skillspython">
+      <label for="skillsnet">.NET</label>
+      <input type="checkbox" name="net" id="skillsnet">
+    </fieldset>
+
+    <hr>
+
+    <div>
+      <!-- <input type="submit" value="registrar"> -->
+      <button type="submit">submit</button>
+    </div>
+  </form>
+  <hr>
+  <div>
+    <label for="tel">phone</label>
+    <input
+      id="tel"
+      type="tel"
+      name="phone"
+      pattern="[0-9]+"
+      form="form"
+    >
+  </div>
+  <!-- input + label -->
+
+  <!-- validaciones -->
+</body>
+</html>
