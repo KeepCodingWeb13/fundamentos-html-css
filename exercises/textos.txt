@@ -1,0 +1,29 @@
+Image:
+  SRC: Logo-KeepCoding-tech-school-final.webp
+  Info de la imagen: Bootcamps KeepCoding 1
+
+Textos:
+  Nuestros Bootcamps
+  Diseñados en Silicon Valley, desarrollados en España.
+  Algunos de nuestros reconocimientos
+
+  Nuestros Bootcamps de programación y tecnología son diseñados en Silicon Valley por expertos para impartirlos en España. En KeepCoding hemos creado una metodología para que puedas compaginar las clases con tu trabajo, y para que en poco tiempo, puedas llevar tu perfil profesional a otro nivel.
+
+Listado:
+Nuestros bootcamps
+  Devops
+    AWS
+    GCP
+    Azure
+  Web
+    html
+    css
+    React
+  Mobile
+    swift
+    kotlin
+
+  KeepCoding®. Todos los derechos reservados 2022
+Links:
+  Código de honor / URL: https://keepcoding.io/sobre-nosotros/codigo-de-honor-keepcoding/
+  Política de cookies / URL: https://keepcoding.io/politica-de-cookies/
