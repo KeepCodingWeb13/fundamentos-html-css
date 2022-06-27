@@ -9,22 +9,25 @@
 <body>
   <!-- 0px       600px->head-small  800px ->head                   ♾px  -->
   <!-- |----------------------------------------------------------- ♾ -->
-  <picture>
-    <source
-      media="(min-width: 800px)"
-      srcset="
-      head.jpg 1x,
-      https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/head-2x.jpg 2x
-      "
-    >
-    <source
-      media="(min-width: 600px)"
-      srcset="https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/head-small.jpg"
-    >
-    <img
-      src="https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/head-fb.jpg"
-      alt="a head carved out of wood"
-    >
-  </picture>
+  <figure>
+    <picture>
+      <source
+        media="(min-width: 800px)"
+        srcset="
+        head.jpg 1x,
+        https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/head-2x.jpg 2x
+        "
+      >
+      <source
+        media="(min-width: 600px)"
+        srcset="https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/head-small.jpg"
+      >
+      <img
+        src="https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/responsive/head-fb.jpg"
+        alt="a head carved out of wood"
+      >
+    </picture>
+    <figcaption>totem</figcaption>
+  </figure>
 </body>
 </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS basic usage</title>
+  <style>
+    h2 {
+      color: blue;
+    }
+    /* 1. cascada */
+    h2 {
+      color: red;
+    }
+    /* 2. selectores */
+    /* 3. Specificity!!!! */
+  </style>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1 style="color: red">Title 1 css inline</h1>
+  <h2>Title 2 css head tag</h2>
+  <h3>Title 3 css external file</h3>
+  <div>
+    <header>
+      <h2>Segundo h2</h2>
+    </header>
+  </div>
+  <h2 id="myHeader" style="color: red">Title with id</h2>
+  <h2 class="title2">Title with class</h2>
+  <hr>
+
+  <h4>no cambies :(</h4>
+  
+  <section>
+    <header>
+      <h4>Title 1</h4>
+    </header>
+  </section>
+
+  <section id="main-content">
+    <header>
+      <h4>Title 2</h4>
+    </header>
+  </section>
+
+  <ul class="list">
+    <li>
+      item 1
+      <ul>
+        <li>sublist item 1</li>
+        <li>sublist item 2</li>
+      </ul>
+    </li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ul>
+
+  <div class="item">
+    hola
+  </div>
+  <button class="button">submit</button>
+</body>
+</html>
