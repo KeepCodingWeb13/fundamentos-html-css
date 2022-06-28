@@ -1,18 +1,19 @@
 :root {
+  /* definición variable */
+  --main-primary-color: #4C4AE6;
+  --secondary-font-color: #fff;
   font-size: 16px;
 }
 body {
-  font-size: 120px;
+  font-size: 16px;
 }
 .footer {
-  background-color: #4C4AE6;
-  color: #FFF;
   text-align: center;
   font-style: italic;
   /* 1. margin */
   /* margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 20px;20px;
+  margin-right: 
   margin-bottom: 20px; */
   /* T - R - B - L */
   /* margin: 10px 30px 25px 60px; */
@@ -34,4 +35,28 @@ body {
 .absolute-font {
   padding: 16px;
   font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.main-bg {
+  background-color: var(--main-primary-color);
+  color: var(--secondary-font-color);
+}
+
+/* --- navbar --- */
+.navbar {
+  padding: 10px 20px;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar .app-title {
+  color: var(--secondary-font-color);
+  text-decoration: none;
 }
