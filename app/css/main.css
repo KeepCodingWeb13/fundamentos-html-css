@@ -1,0 +1,26 @@
+
+.footer {
+  background-color: #4C4AE6;
+  color: #FFF;
+  text-align: center;
+  font-style: italic;
+
+  /* 1. margin */
+  /* margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+  /* T - R - B - L */
+  /* margin: 10px 30px 25px 60px; */
+  /* Y - X */
+  /* margin: 10px 30px; */
+  /* Todos */
+  /* margin: 10px; */
+  /* margin: 10px 30px 25px; */
+  /* 2. border */
+  /* border: 2px solid red; */
+  /* border-radius: 50%; */
+  /* 3. padding */
+  padding: 20px;
+  font-size: 16px;
+}
