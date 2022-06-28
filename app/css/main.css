@@ -1,10 +1,14 @@
-
+:root {
+  font-size: 16px;
+}
+body {
+  font-size: 120px;
+}
 .footer {
   background-color: #4C4AE6;
   color: #FFF;
   text-align: center;
   font-style: italic;
-
   /* 1. margin */
   /* margin-top: 20px;
   margin-left: 20px;
@@ -21,6 +25,13 @@
   /* border: 2px solid red; */
   /* border-radius: 50%; */
   /* 3. padding */
-  padding: 20px;
+  padding: 1rem;
+  font-size: 1rem;
+  /* 1em -> 16px */
+  /* 1rem -> 16px */
+}
+
+.absolute-font {
+  padding: 16px;
   font-size: 16px;
 }
