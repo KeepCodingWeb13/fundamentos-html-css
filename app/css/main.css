@@ -75,11 +75,6 @@ body {
   font-size: 2rem;
 }
 
-.main-content {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .search-form h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -120,11 +115,95 @@ body {
 /* |-----------------------------------------> ♾ */
 /* 0px           <-400px max-width          ♾px  */
 /* |-----------------------------------------> ♾ */
-@media screen and (max-width: 620px) {
+/* esta media query no seria de mobile first */
+/* @media screen and (max-width: 620px) {
   .navbar .image-container {
     display: none;
   }
   .navbar {
     justify-content: flex-end;
+  }
+} */
+/* Hacemos siempre mobile first */
+.navbar .image-container {
+  display: none;
+}
+.navbar {
+  justify-content: flex-end;
+}
+
+.search-form {
+  max-width: 600px;
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 920px;
+  /* border: 1px solid; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.carousel-links {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-dot {
+  background-color: black;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.carousel-slides > div {
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+  color: var(--secondary-font-color);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-slides {
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .image-container {
+    display: block;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sidebar {
+    width: 25%;
+  }
+  
+  .anime-content {
+    width: 70%;
   }
 }
