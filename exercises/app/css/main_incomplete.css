@@ -1,0 +1,85 @@
+:root {
+  /* definición variable */
+  --main-primary-color: #4C4AE6;
+  --secondary-font-color: #fff;
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+.footer {
+  text-align: center;
+  font-style: italic;
+  /* 1. margin */
+  /* margin-top: 20px;
+  margin-left: 20px;20px;
+  margin-right: 
+  margin-bottom: 20px; */
+  /* T - R - B - L */
+  /* margin: 10px 30px 25px 60px; */
+  /* Y - X */
+  /* margin: 10px 30px; */
+  /* Todos */
+  /* margin: 10px; */
+  /* margin: 10px 30px 25px; */
+  /* 2. border */
+  /* border: 2px solid red; */
+  /* border-radius: 50%; */
+  /* 3. padding */
+  padding: 1rem;
+  font-size: 1rem;
+  /* 1em -> 16px */
+  /* 1rem -> 16px */
+}
+
+.absolute-font {
+  padding: 16px;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.main-bg {
+  background-color: var(--main-primary-color);
+  color: var(--secondary-font-color);
+}
+
+/* -- add your main tag css */
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+}
+/* --- add your nav tag css --- */
+.navbar {
+  padding: 10px 20px;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar .image-container {
+  width: 50px;
+}
+
+.navbar .image-container img {
+  width: 100%;
+}
+
+.navbar .app-title {
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* --- add your form css */
+
+/* title */
+.search-form h1 {
+}
+
+/* rest here */
+
