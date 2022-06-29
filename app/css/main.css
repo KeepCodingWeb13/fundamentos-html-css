@@ -3,6 +3,7 @@
   --main-primary-color: #4C4AE6;
   --secondary-font-color: #fff;
   font-size: 16px;
+  font-family: 'Raleway', sans-serif;
 }
 body {
   font-size: 16px;
@@ -107,4 +108,23 @@ body {
   cursor: pointer;
   transition: background-color 0.3s linear;
   margin: 10px 0;
+}
+
+@media print {
+  body {
+    color: red !important;
+  }
+}
+
+/* 0px      min-width 400px->                   ♾px  */
+/* |-----------------------------------------> ♾ */
+/* 0px           <-400px max-width          ♾px  */
+/* |-----------------------------------------> ♾ */
+@media screen and (max-width: 620px) {
+  .navbar .image-container {
+    display: none;
+  }
+  .navbar {
+    justify-content: flex-end;
+  }
 }
