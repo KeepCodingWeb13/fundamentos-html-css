@@ -54,9 +54,57 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+}
+
+.navbar .image-container {
+  width: 50px;
+}
+
+.navbar .image-container img {
+  width: 100%;
 }
 
 .navbar .app-title {
   color: var(--secondary-font-color);
   text-decoration: none;
+  font-size: 2rem;
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-form h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.search-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form .form-group .search-label {
+  margin-bottom: 10px;
+}
+
+.search-form input {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.search-form input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+  margin: 10px 0;
 }
