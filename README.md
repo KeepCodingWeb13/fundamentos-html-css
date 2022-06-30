@@ -3,16 +3,32 @@
 Repositorio con el contenido del curso.
 
 ```
+├───app
+│   ├───css
+│   └───fonts
 ├───examples
+│   ├───css
 │   └───html
 │       ├───basic-tags
+│       ├───forms
 │       ├───head
 │       ├───links
-│       └───multimedia
+│       ├───multimedia
+│       ├───og-tags
+│       ├───responsive-images
+│       ├───semantic-html
+│       └───tables
+├───exercises
+│   └───app
+│       └───css
 ├───external-resources
 ├───portfolio-exercise
 └───slides
 ```
+
+## app
+
+App de ejemplo durante el curso.
 
 ## Examples
 
@@ -28,4 +44,8 @@ Enunciado de la práctica y los posibles wireframes del diseño.
 
 ## slides
 
-Las slides del módulo
+Las slides del módulo.
+
+## exercises
+
+Ejercicios tanto de la parte html como css.
