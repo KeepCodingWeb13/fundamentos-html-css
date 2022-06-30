@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS grid</title>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows:
+        90px auto 600px 90px;
+      grid-template-areas:
+      "navbar navbar navbar"
+      "header header header"
+      "footer main main"
+      "aside aside aside"
+      ;
+    }
+    nav {
+      background-color: orange;
+      /* grid-column-start: 1;
+      grid-column-end: 3;
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+      grid-column: span 3; */
+      grid-area: navbar;
+      
+    }
+    header {
+      background-color: aqua;
+      /* grid-column: 1 / 3;
+      grid-row: 2 / 3;
+      grid-column: span 3; */
+      grid-area: header;
+    }
+    aside {
+      background-color: blueviolet;
+      /* grid-column: 1 / 2;
+      grid-row: 3 / 5; */
+      grid-area: aside;
+    }
+    main {
+      background-color: yellow;
+      /* grid-column: 2 / 4;
+      grid-row: 3 / 4;
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+      grid-area: main;
+    }
+    footer {
+      background-color: green;
+      /* grid-column: 2 / 3;
+      grid-row: 4 / 5;
+      grid-column: span 2; */
+      grid-area: footer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    navbar
+  </nav>
+  <header>
+    Lorem
+  </header>
+  <aside>
+    aside
+  </aside>
+  <main>
+    main content
+  </main>
+  <footer>
+    footer
+  </footer>
+</body>
+</html>
